@@ -109,7 +109,7 @@ Example 1: W2D model
 ```
 d13C_cib1,upper1,lower1 = PyBayBCar(d13C_dic,Depth)
 ```
-Example 2: A4OIp model. Using `BayBCar(d13C_dic,[],Omega,SIC,1)` gives identical result.
+Example 2: A4OIp model. Using `PyBayBCar(d13C_dic,None,Omega,SIC,1)` gives identical result.
 ```
 d13C_cib2,upper2,lower2 = PyBayBCar(d13C_dic,Depth,Omega,SIC,1)
 ```
