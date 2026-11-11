@@ -1,8 +1,8 @@
-# BayBCar
+# PyBayBCar
+
+PyBayBCar is a Python implementation of [BayBCar](https://github.com/bagniewski/BayBCar), originally written for MATLAB.
 
 BayBCar is a class of Bayesian proxy system models (PSMs) for benthic δ13C, incorporating the effects of carbonate chemistry, sea ice concentration, and species-specific differences. It enables probabilistic forward and inverse modelling of benthic foraminiferal δ13C and δ13C of DIC, respectively.
-
-This code is adapted from the original MATLAB implementation of [BayBCar](https://github.com/bagniewski/BayBCar): 
 
 Depending on the input variables, one of 8 BayBCar formulations will be selected:
 * A3Dp: 3 predictors (δ13C_dic, Depth, Species)
